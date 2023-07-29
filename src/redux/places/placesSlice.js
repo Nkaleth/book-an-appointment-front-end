@@ -5,7 +5,7 @@ const FETCH_PLACES = 'final_capstone_frontend/places/FETCH_PLACES';
 const ADD_PLACE = 'final_capstone_frontend/places/ADD_PLACE';
 
 // URL
-const placesURL = 'https://reservation-places.onrender.com/api/v1/places';
+const placesURL = 'http://44.212.43.161:3000/api/v1/places';
 
 // Async function
 const fetchPlacesAsync = createAsyncThunk(
