@@ -1,11 +1,11 @@
-import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';http://44.212.43.161:3000/
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 // Actions
 const FETCH_PLACES = 'final_capstone_frontend/places/FETCH_PLACES';
 const ADD_PLACE = 'final_capstone_frontend/places/ADD_PLACE';
 
 // URL
-const placesURL = '172.31.92.35/api/v1/places';
+const placesURL = 'https://book-an-appointment-api.fly.dev/api/v1/places';
 
 // Async function
 const fetchPlacesAsync = createAsyncThunk(

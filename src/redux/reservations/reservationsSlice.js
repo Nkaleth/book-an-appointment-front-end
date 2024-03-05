@@ -10,7 +10,7 @@ export const initialState = {
 
 export const getReservations = createAsyncThunk('reservations/getReservations',
   async (userId) => {
-    const getUrl = `172.31.92.35/api/v1/users/${userId}/reservations`;
+    const getUrl = `https://book-an-appointment-api.fly.dev/api/v1/users/${userId}/reservations`;
     try {
       const response = await fetch(getUrl);
       const data = await response.json();
@@ -20,7 +20,7 @@ export const getReservations = createAsyncThunk('reservations/getReservations',
     }
   });
 
-const URL = '172.31.92.35/api/v1/reservations';
+const URL = 'https://book-an-appointment-api.fly.dev/api/v1/reservations';
 
 export const createReservation = createAsyncThunk(
   'reservations/createReservation',

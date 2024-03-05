@@ -1,8 +1,8 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const LOGIN_URL = '172.31.92.35/api/v1/login';
-const SIGNUP_URL = '172.31.92.35/api/v1/signup';
+const LOGIN_URL = 'https://book-an-appointment-api.fly.dev/api/v1/login';
+const SIGNUP_URL = 'https://book-an-appointment-api.fly.dev/api/v1/signup';
 
 const initialState = {
   userName: '',
